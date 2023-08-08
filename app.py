@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect
 import pickle
 
-import numpy as np                        # numpy==1.24.3
-
+import numpy as np                        # numpy==1.24.3 #scikit-learn==1.2.2
+                                            
 app = Flask(__name__)
 
 @app.route('/', methods=['POST', 'GET'])
